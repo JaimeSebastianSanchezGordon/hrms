@@ -1,0 +1,45 @@
+{
+  "specs": [
+    {
+      "id": "f4a48c3c-8b6a-442d-abab-257aa02d7efa",
+      "name": "Expediente Digital del Empleado y Estructura Organizacional",
+      "position": 0,
+      "dependencies": []
+    },
+    {
+      "id": "88dc2370-6911-4a2b-bc71-cedd44d54f12",
+      "name": "Reclutamiento, Onboarding y Movilidad Interna",
+      "position": 1,
+      "dependencies": [
+        "Expediente Digital del Empleado y Estructura Organizacional"
+      ]
+    },
+    {
+      "id": "c1cd89eb-cef0-4597-8114-b77a940d4e7a",
+      "name": "Gestión de Competencias, Desempeño y Aprendizaje",
+      "position": 2,
+      "dependencies": [
+        "Expediente Digital del Empleado y Estructura Organizacional"
+      ]
+    },
+    {
+      "id": "a6f69a8b-95cd-45c5-84b0-a7cbb2e5298d",
+      "name": "Compensación, Beneficios y Sucesión",
+      "position": 3,
+      "dependencies": [
+        "Expediente Digital del Empleado y Estructura Organizacional",
+        "Gestión de Competencias, Desempeño y Aprendizaje"
+      ]
+    },
+    {
+      "id": "43f6a29c-f8b9-490c-a7f3-7854fedcb71c",
+      "name": "Autoservicio, Portal del Empleado y Analítica de Personas",
+      "position": 4,
+      "dependencies": [
+        "Expediente Digital del Empleado y Estructura Organizacional",
+        "Gestión de Competencias, Desempeño y Aprendizaje",
+        "Compensación, Beneficios y Sucesión"
+      ]
+    }
+  ]
+}
